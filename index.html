@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURELIA COFFEE HOUSE | Artisan Coffee & Slow Moments</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Playfair Display (Serif) & Inter (Sans-Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- STICKY NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">AURELIA <span>COFFEE HOUSE</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#specialties">Specialties</a></li>
+                <li><a href="#ambience">Ambience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Visit Us</a></li>
+            </ul>
+            <a href="#menu" class="btn btn-outline nav-cta">VIEW MENU</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME / HERO SECTION -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">EST. 2018 • ARTISAN COFFEE HOUSE</span>
+                    <h1>GOOD COFFEE.<br>SLOW MOMENTS.</h1>
+                    <p>Crafted coffee, thoughtful food and a warm space designed for moments worth staying for.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">VIEW OUR MENU</a>
+                        <a href="#contact" class="btn btn-secondary">VISIT US</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80" alt="Cozy café interior with warm lighting and coffee cup" />
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRO / BRAND STATEMENT -->
+        <section class="intro-statement">
+            <div class="container text-center">
+                <span class="badge">OUR PHILOSOPHY</span>
+                <h2>Coffee Is More Than A Drink.</h2>
+                <p>"At Aurelia, we believe the best moments don't need to be rushed. From carefully sourced beans to freshly prepared plates, every detail is created to make your time with us worth remembering."</p>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Barista pouring latte art into ceramic cup" />
+                </div>
+                <div class="about-content">
+                    <span class="badge">THE AURELIA STORY</span>
+                    <h2>MADE WITH CARE</h2>
+                    <p>Freshly prepared coffee, carefully selected beans, quality ingredients, friendly service, and a relaxed atmosphere that feels like an extension of your living room.</p>
+                    
+                    <blockquote class="highlight-quote">
+                        "From the first pour to the final bite, every detail matters."
+                    </blockquote>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <h3>ARTISAN COFFEE</h3>
+                            <p>Freshly brewed with carefully selected beans.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>FRESH INGREDIENTS</h3>
+                            <p>Simple ingredients prepared with daily care.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>WARM HOSPITALITY</h3>
+                            <p>A space where everyone feels welcome.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU SECTION -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">DISCOVER OUR OFFERINGS</span>
+                    <h2>OUR MENU</h2>
+                    <p>Handcrafted beverages and thoughtful dishes made to brighten your day.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <!-- Category 1: Coffee -->
+                    <div class="menu-category">
+                        <h3>COFFEE</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">Espresso</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Americano</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Cappuccino</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Café Latte</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Mocha</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Cold Brew</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Non-Coffee -->
+                    <div class="menu-category">
+                        <h3>NON-COFFEE</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">Hot Chocolate</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Matcha Latte</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Classic Tea</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Iced Tea</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Fresh Lemonade</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Desserts -->
+                    <div class="menu-category">
+                        <h3>DESSERTS</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">Classic Cheesecake</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Chocolate Brownie</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Tiramisu</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Butter Croissant</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Light Bites -->
+                    <div class="menu-category">
+                        <h3>LIGHT BITES</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <span class="item-name">Avocado Toast</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Grilled Sandwich</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Pasta Alfredo</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="item-name">Breakfast Bowl</span>
+                                <span class="item-dots"></span>
+                                <span class="item-price">₹XXX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SPECIALTIES SECTION -->
+        <section id="specialties" class="specialties">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">HOUSE FAVORITES</span>
+                    <h2>THE AURELIA SPECIALS</h2>
+                    <p>Curated signature creations crafted exclusively by our expert baristas.</p>
+                </div>
+
+                <div class="specialties-grid">
+                    <article class="specialty-card">
+                        <div class="specialty-img">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="Signature Latte with caramel drizzle" />
+                        </div>
+                        <div class="specialty-content">
+                            <h3>SIGNATURE LATTE</h3>
+                            <p>"Smooth espresso, silky milk and our signature caramel finish."</p>
+                            <span class="specialty-price">₹XXX</span>
+                        </div>
+                    </article>
+
+                    <article class="specialty-card">
+                        <div class="specialty-img">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Dark Chocolate Mocha" />
+                        </div>
+                        <div class="specialty-content">
+                            <h3>DARK CHOCOLATE MOCHA</h3>
+                            <p>"Rich espresso blended with dark chocolate and velvety steamed milk."</p>
+                            <span class="specialty-price">₹XXX</span>
+                        </div>
+                    </article>
+
+                    <article class="specialty-card">
+                        <div class="specialty-img">
+                            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80" alt="Honey Cinnamon Cold Brew" />
+                        </div>
+                        <div class="specialty-content">
+                            <h3>HONEY CINNAMON COLD BREW</h3>
+                            <p>"Slow-brewed coffee balanced with natural honey and a hint of cinnamon."</p>
+                            <span class="specialty-price">₹XXX</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- AMBIENCE SECTION -->
+        <section id="ambience" class="ambience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">ATMOSPHERE</span>
+                    <h2>A SPACE TO STAY A WHILE</h2>
+                    <p>Designed with warm tones, natural light, and quiet corners for every mood.</p>
+                </div>
+
+                <div class="ambience-layout">
+                    <div class="ambience-main">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Spacious warm café seating and ambiance" />
+                    </div>
+                    <div class="ambience-details">
+                        <div class="ambience-text-box">
+                            <h3>Designed For Your Rhythm</h3>
+                            <p>Whether you are kickstarting your morning with an energizing espresso, settling in with a laptop for quiet work, catching up with a friend over pastries, or enjoying a peaceful evening read — Aurelia provides an inviting refuge from the city rush.</p>
+                        </div>
+                        <div class="ambience-activities">
+                            <span>☕ Morning coffee</span>
+                            <span>🤝 Casual meetings</span>
+                            <span>💻 Quiet work</span>
+                            <span>📖 Reading corners</span>
+                            <span>🕯️ Evening conversations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">VISUAL JOURNEY</span>
+                    <h2>INSIDE AURELIA</h2>
+                    <p>Moments, brews, and spaces captured through our lens.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Café interior cozy vibe"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80" alt="Barista latte art"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="Signature caramel latte"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Dark chocolate mocha"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80" alt="Cold brew coffee glass"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="Café seating area"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" alt="Freshly baked pastries"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=600&q=80" alt="People enjoying coffee"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" alt="Coffee beans close up"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80" alt="Pour over coffee preparation"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">HELPFUL ANSWERS</span>
+                    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+                    <p>Everything you need to know before visiting us.</p>
+                </div>
+
+                <div class="faq-accordion">
+                    <details>
+                        <summary>Do you offer takeaway coffee?</summary>
+                        <p>Yes, all our beverages and food items are available in eco-friendly takeaway packaging.</p>
+                    </details>
+                    <details>
+                        <summary>Do you have vegetarian options?</summary>
+                        <p>Yes, our menu features a wide selection of vegetarian sandwiches, pastas, bowls, and bakery items.</p>
+                    </details>
+                    <details>
+                        <summary>Is Wi-Fi available?</summary>
+                        <p>Complimentary high-speed Wi-Fi is available for all dine-in guests looking to work or study.</p>
+                    </details>
+                    <details>
+                        <summary>Can I work from the café?</summary>
+                        <p>Absolutely! Many of our guests enjoy working from Aurelia during daytime hours. We provide ample seating and power outlets.</p>
+                    </details>
+                    <details>
+                        <summary>Do you accept reservations?</summary>
+                        <p>We operate primarily on a walk-in basis to maintain a relaxed, open atmosphere for everyone.</p>
+                    </details>
+                    <details>
+                        <summary>What are your opening hours?</summary>
+                        <p>We are open Monday to Friday from 8:00 AM to 10:00 PM, and Saturday to Sunday from 8:00 AM to 11:00 PM.</p>
+                    </details>
+                    <details>
+                        <summary>Do you offer dairy-free milk options?</summary>
+                        <p>Yes, we offer oat milk and almond milk alternatives for all coffee and tea beverages.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- VISIT US / CONTACT SECTION (NO FORM) -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">LOCATION & HOURS</span>
+                    <h2>COME SAY HELLO</h2>
+                    <p>Good coffee tastes better when shared. Find us, take a seat and stay awhile.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3>AURELIA COFFEE HOUSE</h3>
+                        
+                        <div class="info-group">
+                            <strong>Address:</strong>
+                            <p>18 Heritage Lane, Lucknow, Uttar Pradesh</p>
+                        </div>
+                        
+                        <div class="info-group">
+                            <strong>Phone:</strong>
+                            <p>+91 98765 43210</p>
+                        </div>
+                        
+                        <div class="info-group">
+                            <strong>Email:</strong>
+                            <p>hello@aureliacoffee.in</p>
+                        </div>
+
+                        <div class="info-group">
+                            <strong>Opening Hours:</strong>
+                            <p><strong>Monday – Friday:</strong><br>8:00 AM – 10:00 PM<br><br><strong>Saturday – Sunday:</strong><br>8:00 AM – 11:00 PM</p>
+                        </div>
+
+                        <div class="social-handles">
+                            <a href="#">Instagram</a>
+                            <a href="#">Facebook</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-map-wrapper">
+                        <div class="map-box">
+                            <span class="map-icon">📍</span>
+                            <h4>FIND US</h4>
+                            <p>18 Heritage Lane,<br>Lucknow, Uttar Pradesh</p>
+                            <a href="#" class="btn btn-primary">GET DIRECTIONS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section class="final-cta">
+            <div class="container text-center">
+                <h2>YOUR NEXT FAVORITE COFFEE IS WAITING.</h2>
+                <p>Take a break. Meet a friend. Stay for another cup.</p>
+                <a href="#menu" class="btn btn-primary">VIEW MENU</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">AURELIA <span>COFFEE HOUSE</span></a>
+                <p>Artisan coffee, thoughtful food and slow moments in the heart of the city.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#specialties">Specialties</a></li>
+                    <li><a href="#ambience">Ambience</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Visit Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Phone: +XX XXXXX XXXXX</p>
+                <p>Email: hello@aureliacoffee.in</p>
+                <p>Address: IN YOUR HEART</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 AURELIA COFFEE HOUSE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
